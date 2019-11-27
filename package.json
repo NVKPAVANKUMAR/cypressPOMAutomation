@@ -1,0 +1,19 @@
+{
+  "name": "cypresspom",
+  "version": "1.0.0",
+  "description": "to test POM for cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run --record --key 046dcc98-bcf7-41ca-a111-8b8413604a85",
+    "openCypress": "./node_modules/.bin/cypress open"
+  },
+  "author": "pavan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.6.1",
+    "typescript-json-schema": "^0.40.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.4.0"
+  }
+}
