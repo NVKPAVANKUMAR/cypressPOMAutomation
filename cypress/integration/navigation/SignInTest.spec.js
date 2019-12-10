@@ -2,7 +2,7 @@ import HomePage from '../../pages/HomePage';
 
 
 describe('Sign In', () => {
-    it("should show error in case of invalid credentails", () => {
+    it("should show error in case of empty credentails", () => {
         const home = new HomePage();
         home.visit();
 
